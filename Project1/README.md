@@ -19,6 +19,6 @@ Problem Statement:
 + Shared memory is used for the “table”.
 
 We expect to use these two programs (producer and consumer) like this:
-*$ gcc producer.c -pthread -lrt -o producer*
-*$ gcc consumer.c -pthread -lrt -o consumer*
-*$ ./producer & ./consumer &*
+> $ gcc producer.c -pthread -lrt -o producer
+> $ gcc consumer.c -pthread -lrt -o consumer
+> $ ./producer & ./consumer &
